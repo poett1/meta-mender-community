@@ -16,4 +16,4 @@ repos:
 
   meta-mender-community:
     layers:
-      meta-mender-tegra/meta-mender-tegra-jetpack5:
+      meta-mender-tegra:
