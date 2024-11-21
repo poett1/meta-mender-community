@@ -14,16 +14,16 @@ The supported and tested boards are:
 This layer depends on:
 
 ```
-URI: https://github.com/madisongh/meta-tegra.git
+URI: https://github.com/OE4T/meta-tegra.git
 layers: meta-tegra
-branch: kirkstone
+branch: scarthgap-l4t-r35.x (JP5)   or   scarthgap (JP6)
 revision: HEAD
 ```
 
 ```
 URI: https://github.com/mendersoftware/meta-mender.git
 layers: meta-mender-core
-branch: kirkstone
+branch: scarthgap
 revision: HEAD
 ```
 
@@ -37,9 +37,9 @@ for the most up to date instructions on starting out with mender and tegra.
 
 The following configuration files for building using the `kas` tool are provided:
 
-- [jetson-agx-orin-devkit.yml](../../kas/jetson-agx-orin-devkit.yml)
-- [jetson-agx-xavier-devkit.yml](../../kas/jetson-agx-xavier-devkit.yml)
-- [jetson-orin-nano-devkit.yml](../../kas/jetson-orin-nano-devkit.yml)
+- [jetson-agx-orin-devkit.yml](../kas/jetson-agx-orin-devkit.yml)
+- [jetson-agx-xavier-devkit.yml](../kas/jetson-agx-xavier-devkit.yml)
+- [jetson-orin-nano-devkit.yml](../kas/jetson-orin-nano-devkit.yml)
 
 ## Acknowlegements
 
